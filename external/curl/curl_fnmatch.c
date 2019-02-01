@@ -22,7 +22,7 @@
 
 #include "curl_setup.h"
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #include "curl_fnmatch.h"
 #include "curl_memory.h"

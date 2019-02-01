@@ -24,7 +24,7 @@
 
 #ifdef CURLDEBUG
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #include "urldata.h"
 

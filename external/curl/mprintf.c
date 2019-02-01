@@ -36,7 +36,7 @@
  */
 
 #include "curl_setup.h"
-#include <curl/mprintf.h>
+#include "../../external/include/curl/mprintf.h"
 
 #include "curl_memory.h"
 /* The last #include file should be: */

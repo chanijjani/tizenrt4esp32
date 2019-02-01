@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #if !defined(CONFIG_DISABLE_CRYPTO_AUTH)
 

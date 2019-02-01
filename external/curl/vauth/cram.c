@@ -26,7 +26,7 @@
 
 #if !defined(CONFIG_DISABLE_CRYPTO_AUTH)
 
-#include <curl/curl.h>
+#include "curlx.h"
 #include "urldata.h"
 
 #include "vauth/vauth.h"

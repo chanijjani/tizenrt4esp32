@@ -28,8 +28,8 @@
 #include <sys/ioctl.h>
 #include <sys/types.h>
 #include <tinyara/i2c.h>
-#include <iotbus/iotbus_error.h>
-#include <iotbus/iotbus_i2c.h>
+#include "../../include/iotbus/iotbus_error.h"
+#include "../../include/iotbus/iotbus_i2c.h"
 
 struct _iotbus_i2c_s {
 	int fd;

@@ -91,7 +91,7 @@
 
 #include "timeval.h"
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #include "http_chunks.h" /* for the structs and enum stuff */
 #include "hostip.h"

@@ -22,7 +22,7 @@
 
 #include "curl_setup.h"
 
-#include <curl/curl.h>
+#include "curlx.h"
 #include "urldata.h"
 #include "vtls/vtls.h"
 #include "http2.h"

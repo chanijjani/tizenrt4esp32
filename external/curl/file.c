@@ -50,7 +50,7 @@
 
 #include "strtoofft.h"
 #include "urldata.h"
-#include <curl/curl.h>
+#include "curlx.h"
 #include "progress.h"
 #include "sendf.h"
 #include "escape.h"

@@ -27,7 +27,7 @@
  * *rintf() functions.
  */
 
-#include <curl/mprintf.h>
+#include "curlx.h"
 
 # undef printf
 # undef fprintf

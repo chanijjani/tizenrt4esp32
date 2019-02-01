@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 /*
  * Only "raw" case insensitive strings. This is meant to be locale independent

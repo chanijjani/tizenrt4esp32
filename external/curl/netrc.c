@@ -26,7 +26,7 @@
 #include <pwd.h>
 #endif
 
-#include <curl/curl.h>
+#include "curlx.h"
 #include "netrc.h"
 #include "strtok.h"
 #include "strcase.h"

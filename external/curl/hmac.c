@@ -26,7 +26,7 @@
 
 #ifndef CONFIG_DISABLE_CRYPTO_AUTH
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #include "curl_hmac.h"
 #include "curl_memory.h"

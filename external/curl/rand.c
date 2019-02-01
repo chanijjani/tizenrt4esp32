@@ -26,7 +26,7 @@
 #include <fcntl.h>
 #endif
 
-#include <curl/curl.h>
+#include "curlx.h"
 #include "vtls/vtls.h"
 #include "sendf.h"
 #include "rand.h"
