@@ -43,12 +43,14 @@
 #include <strings.h>  /* bzero() in FD_SET */
 #endif
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #include "urldata.h"
 #include "connect.h"
 #include "select.h"
 #include "warnless.h"
+
+#include <tinyara/fs/fs.h>
 
 /* Convenience local macros */
 #define ELAPSED_MS() (int)Curl_timediff(Curl_now(), initial_tv)

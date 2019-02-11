@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include <curl/curl.h>
+#include "curlx.h"
 #include "llist.h"
 
 struct fileinfo {

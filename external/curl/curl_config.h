@@ -439,7 +439,7 @@
 #define HAVE_POLL 1
 
 /* If you have a fine poll */
-#define HAVE_POLL_FINE 1
+//#define HAVE_POLL_FINE 1
 
 /* Define to 1 if you have the <poll.h> header file. */
 #define HAVE_POLL_H 1

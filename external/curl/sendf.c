@@ -27,7 +27,7 @@
 #endif
 
 #include <net/lwip/tcp.h>
-#include <curl/curl.h>
+#include "curlx.h"
 
 #include "urldata.h"
 #include "sendf.h"

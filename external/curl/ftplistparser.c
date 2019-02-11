@@ -39,7 +39,7 @@
 
 #ifndef CONFIG_DISABLE_FTP
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #include "urldata.h"
 #include "fileinfo.h"

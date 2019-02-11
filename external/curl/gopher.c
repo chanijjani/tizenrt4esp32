@@ -25,7 +25,7 @@
 #ifndef CONFIG_DISABLE_GOPHER
 
 #include "urldata.h"
-#include <curl/curl.h>
+#include "curlx.h"
 #include "transfer.h"
 #include "sendf.h"
 #include "progress.h"

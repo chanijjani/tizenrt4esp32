@@ -51,7 +51,7 @@
 #endif
 
 #include "urldata.h"
-#include <curl/curl.h>
+#include "curlx.h"
 #include "transfer.h"
 #include "vtls/vtls.h"
 #include "url.h"

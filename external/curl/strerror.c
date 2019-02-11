@@ -33,7 +33,7 @@
 #  endif
 #endif
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #ifdef USE_LIBIDN2
 #include <idn2.h>

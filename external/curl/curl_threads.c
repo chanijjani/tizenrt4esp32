@@ -22,7 +22,7 @@
 
 #include "curl_setup.h"
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #if defined(USE_THREADS_POSIX)
 #  ifdef HAVE_PTHREAD_H

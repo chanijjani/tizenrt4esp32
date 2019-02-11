@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 struct Curl_easy;
 struct connectdata;

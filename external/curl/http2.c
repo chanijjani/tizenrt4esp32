@@ -2267,7 +2267,7 @@ void Curl_http2_cleanup_dependencies(struct Curl_easy *data)
 /* Satisfy external references even if http2 is not compiled in. */
 
 #define CURL_DISABLE_TYPECHECK
-#include <curl/curl.h>
+#include "curlx.h"
 
 char *curl_pushheader_bynum(struct curl_pushheaders *h, size_t num)
 {

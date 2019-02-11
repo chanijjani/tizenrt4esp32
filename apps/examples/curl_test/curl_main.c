@@ -22,7 +22,8 @@
 #include <tinyara/config.h>
 #include <stdio.h>
 #include <string.h>
-#include <curl/curl.h>
+
+#include "../../external/curl/curlx.h"
 
 
 #define CURL_TASH_PRI      100

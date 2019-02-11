@@ -60,7 +60,7 @@
 #define in_addr_t unsigned long
 #endif
 
-#include <curl/curl.h>
+#include "curlx.h"
 #include "urldata.h"
 #include "sendf.h"
 #include "hostip.h"

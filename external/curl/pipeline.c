@@ -23,7 +23,7 @@
 
 #include "curl_setup.h"
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #include "urldata.h"
 #include "url.h"

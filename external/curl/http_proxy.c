@@ -26,7 +26,7 @@
 
 #if !defined(CONFIG_DISABLE_PROXY) && !defined(CONFIG_DISABLE_HTTP)
 
-#include <curl/curl.h>
+#include "curlx.h"
 #include "sendf.h"
 #include "http.h"
 #include "url.h"

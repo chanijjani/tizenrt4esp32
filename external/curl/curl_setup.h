@@ -96,7 +96,7 @@
 /*  please, do it beyond the point further indicated in this file.  */
 /* ================================================================ */
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #define CURL_SIZEOF_CURL_OFF_T SIZEOF_CURL_OFF_T
 

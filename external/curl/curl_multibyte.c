@@ -22,7 +22,7 @@
 
 #include "curl_setup.h"
 
-#include <curl/curl.h>
+#include "curlx.h"
 
 #if defined(USE_WIN32_IDN) || ((defined(USE_WINDOWS_SSPI) || \
                                 defined(USE_WIN32_LDAP)) && defined(UNICODE))
